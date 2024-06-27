@@ -1,0 +1,261 @@
+.diwalibrussels {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .diwalibrussels_banner {
+    width: 100%;
+    height: 90vh;
+    background-image: url("../imges/image 3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .diwalibrussels_banner > h3 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .diwalibrussels_banner > a {
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #111;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .diwalibrussels_content {
+    width: 83%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* margin-top: 30px; */
+    margin-bottom: 50px;
+  }
+  .diwalibrussels_content_left {
+    flex: 0.45;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+  }
+  .diwalibrussels_content_left > p {
+    margin-bottom: 20px;
+    line-height: 30px;
+    text-align: justify;
+    word-break: break-word;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .diwalibrussels_content_right {
+    display: flex;
+    flex: 0.45;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .diwalibrussels_content_right > img {
+    width: 100%;
+  }
+  .diwalibrussels_heading{
+    font-size: 35px;
+    font-weight: 600;
+    color: #E68639;
+  }
+  .diwalibrussels_card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 83%;
+  }
+  .diwalibrussels_images {
+    margin-top: 30px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+  .diwalibrussels_images_row1,.diwalibrussels_images_row2{
+    width: 100%;
+    display: grid;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .diwalibrussels_images_row1 > img,.diwalibrussels_images_row2>img {
+    height: 300px;
+    width: 100%;
+    /* margin-right: 20px; */
+    /* margin-bottom: 20px; */
+    /* padding-bottom: 20px; */
+  }
+  .diwalibrussels_video {
+    width: 100%;
+    height: 80vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url("../imges/ezgif-4-568e505bef\ 1.gif");
+    background-position: center;
+    background-size: cover;
+  }
+  .diwalibrussels_know_more {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 83%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .diwalibrussels_know_more > h3 {
+    margin-top: 20px;
+  }
+  .diwalibrussels_know_more_card {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .video_player{
+    width: 1000px !important;
+  }
+  .breadcreams{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 40px;
+    background-color: #FFF3EA;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 8px 80px;
+  }
+  .breadcreams>p{
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .breadcreams_home{
+    color: lightgrey;
+    text-decoration:none ;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .diwalibrussels_content{
+      width: 90%;
+    }
+    .diwalibrussels_banner {
+      height: 65vh;
+    }
+    .diwalibrussels_banner > h3 {
+      font-size: 50px;
+    }
+    .diwalibrussels_content{
+      flex-direction: column-reverse;
+    }
+    .diwalibrussels_content_right{
+      margin-bottom: 30px;
+    }
+    .diwalibrussels_card{
+      width: 90%;
+      overflow-y: scroll;
+    }
+    .diwalibrussels_know_more_card{
+      align-items: flex-start;
+      justify-content: flex-start;
+      overflow-y: scroll;
+    }
+    .diwalibrussels_images_row1,.diwalibrussels_images_row2{
+      /* justify-content: flex-start; */
+      overflow-x: scroll;
+      overflow-y: hidden !important;
+      display: flex;
+    }
+    .diwalibrussels_images_row1>img,.diwalibrussels_images_row2>img{
+      /* margin-right: 10px; */
+      height: 200px;
+      min-width: 100%;
+      
+    }
+    .video_player{
+      width: 350px !important;
+    }
+    .diwalibrussels_heading-showbooking {
+      width: 100% !important;
+    }
+  }
+  @media only screen and (min-width:600px) and (max-width:1074px){
+    .diwalibrussels_banner{
+      height: 60vh;
+    }
+    .diwalibrussels_card{
+      width: 90%;
+      overflow-x: scroll;
+    }
+    .diwalibrussels_video {
+      height: 50vh;
+    }
+    .diwalibrussels_images_row1, .diwalibrussels_images_row2{
+      /* align-items: flex-start;
+      justify-content: flex-start; */
+      display: flex;
+  
+      overflow-x: scroll;
+      overflow-y: hidden !important;
+    }
+    .diwalibrussels_images_row1>img,.diwalibrussels_images_row2>img{
+      height: 320px;
+      /* margin-right: 15px; */
+      min-width: 100%;
+    }
+    .diwalibrussels_know_more {
+      width: 90%;
+    }
+    .diwalibrussels_content {
+      width: 90%;
+    }
+    .diwalibrussels_content_right{
+      margin-bottom: 20px;
+    }
+    .diwalibrussels_content{
+      flex-direction: column-reverse;
+    }
+    .diwalibrussels_know_more_card{
+      align-items: flex-start;
+      justify-content: flex-start;
+      overflow-x: scroll;
+    }
+    .video_player{
+      width: 600px !important;
+    }
+    
+  }
+  @media only screen and (min-width:1100px) and (max-width:1390px){
+    .diwalibrussels_card{
+      width: 90%;
+    }
+    .diwalibrussels_know_more{
+      width: 90%;
+    }
+    .diwalibrussels_images_row1>img,.diwalibrussels_images_row2>img{
+      height: 260px;
+    }
+  }

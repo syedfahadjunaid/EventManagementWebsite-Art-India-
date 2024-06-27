@@ -1,0 +1,9 @@
+.headimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headimage>img{
+    object-fit: contain;
+    margin-right: 2px;
+}

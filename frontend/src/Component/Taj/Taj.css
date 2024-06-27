@@ -1,0 +1,38 @@
+.taj_banner{
+    width: 100%;
+    height: 90vh;
+    background-image: url("../imges/image 15.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.taj_banner > h3 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .taj_banner > a {
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #111;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  @media only screen and (max-width:600px){
+    .taj_banner{
+      height: 30vh;
+    }
+  }
+  @media only screen and (min-width:601px) and (max-width:1074px){
+    .taj_banner{
+      height: 50vh;
+    }
+  }

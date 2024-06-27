@@ -1,0 +1,53 @@
+.yoga_banner {
+  width: 100%;
+  height: 90vh;
+  background-image: url("../imges/yoga fest/yoga.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.yoga_banner > h3 {
+  font-size: 60px;
+  font-weight: 400;
+  color: #fff;
+}
+.yoga_banner > a {
+  margin-top: 50px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #111;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.yogafest_video{
+  width: 100%;
+  height: 80vh;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-image: url("../imges/yoga fest/ezgif-2-ddb0a7bb70.gif");
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width:600px){
+  .yoga_banner{
+    height: 65vh;
+  }
+  .yogafest_video{
+    height: 25vh;
+  }
+}
+@media only screen and (min-width:601px) and (max-width:1074px){
+  .yoga_banner{
+    height: 50vh;
+  }
+  .yogafest_video{
+    height: 50vh;
+  }
+}

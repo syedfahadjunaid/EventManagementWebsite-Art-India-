@@ -1,0 +1,139 @@
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #0b0500;
+  color: #fff;
+  padding: 40px 40px;
+}
+.footer_one,
+.footer_five {
+  flex: 0.2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+.footer_one > img {
+  margin-bottom: 20px;
+}
+.footer_one > h3 {
+  margin-bottom: 20px;
+  color: #e68639;
+}
+
+.footer_one > p {
+  text-align: justify;
+  word-break: break-word;
+  width: 100%;
+}
+.footer_two,
+.footer_three,
+.footer_four {
+  flex: 0.13;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+.footer_two > p,
+.footer_three > p,
+.footer_four > p ,
+.footer_two >a> p,
+.footer_three >a> p,
+.footer_four >a> p{
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+ 
+}
+.footer_two > p:hover,
+.footer_three > p:hover,
+.footer_four > p:hover {
+  opacity: 0.9;
+}
+
+.footer_two > h3,
+.footer_three > h3,
+.footer_four > h3,
+.footer_five > h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #e68639;
+}
+/* .footer_three{
+    flex: 0.1;
+}
+.footer_four{
+    flex: 0.2;
+} */
+.footer_five > span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+.footer_five > span > p {
+  text-align: justify;
+  word-break: break-word;
+  margin-left: 20px;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.footer_icon {
+  margin-right: 15px;
+  font-size: 35px;
+  cursor: pointer;
+}
+.footer_icon:hover {
+  opacity: 0.9;
+}
+.footer_copyright{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #06070B;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer_copyright>span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_copyright>span>p{
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.footer_link_tag{
+  text-decoration: none;
+  color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer_one > p {
+    width: 300px;
+  }
+.footer_two,.footer_three,.footer_four,.footer_five{
+margin-top: 10px;
+  }
+  .footer_copyright{
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width:601px) and (max-width:1047px){
+  .footer{
+    padding: 40px 0;
+  }
+}

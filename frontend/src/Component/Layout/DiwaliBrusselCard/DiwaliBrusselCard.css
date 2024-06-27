@@ -1,0 +1,67 @@
+.diwalibrusselcard {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 24rem;
+  height: 30rem;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  /* background-image: url("../../imges/Rectangle 102.png"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+}
+.diwalibrusselcard_details {
+  /* border: 1px solid white; */
+  width: 95%;
+  height: 150px;
+  padding: 10px;
+  background: #fff;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 4px;
+}
+.diwalibrusselcard_details > span {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+@media only screen and (max-width:600px){
+  .diwalibrusselcard{
+    min-width: 22rem;
+  }
+  .diwalibrussels_images {
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    flex-wrap: nowrap;
+  }
+  .diwalibrussels_images>img{
+    margin-right: 10px;
+  }
+  .diwalibrussels_video{
+    height: 25vh;
+  }
+  .diwalibrussels_know_more{
+    width: 90%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+@media only screen and (min-width:601px) and (max-width:1074px){
+  .diwalibrusselcard{
+    min-width: 23rem;
+  }
+}
+@media only screen and (min-width:1150px) and (max-width:1390px){
+  .diwalibrusselcard{
+    width: 23rem;
+  }
+}

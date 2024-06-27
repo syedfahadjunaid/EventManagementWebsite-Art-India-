@@ -1,0 +1,29 @@
+.privacypolicy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.privacypolicy_header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.privacypolicy_para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+.privacypolicy_para>p{
+    margin-bottom: 20px;
+    text-align: justify;
+    word-break: break-word;
+    line-height: 25px;
+    font-size: 18px;
+}

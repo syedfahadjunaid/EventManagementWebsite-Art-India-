@@ -1,0 +1,58 @@
+.adminsidebar {
+  border-right: 1px solid lightgray;
+  width: 20%;
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  position: fixed;
+  left: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.adminsidebar_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+}
+.adminsidebar_heading{
+    padding-top: 5%;
+    padding-left: 15%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.adminsidebar_heading>span{
+    margin-bottom: 15px;
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+.adminsidebar_heading>span>p{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.adminsidebar_heading_icons{
+    margin-right: 10px;
+}
+.adminsidebar_heading>div{
+    padding-left: 15%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.adminsidebar_heading>div>p{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}

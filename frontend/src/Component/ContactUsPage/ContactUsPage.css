@@ -1,0 +1,289 @@
+
+
+
+
+.contactuspage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactuspage_banner {
+  width: 100%;
+  height: 40vh;
+  background-image: url("../imges/image 2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contactuspage_form {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 83%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contactuspage_form > h3 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.contactuspage_form > p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.contactuspage_form > form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.contactuspage_form > form > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.contactuspage_form > form > div > input,
+.contactuspage_form > form > div > span {
+  flex: 0.45;
+  width: 100%;
+  height: 45px;
+  /* padding-left: 15px; */
+  border: 1px solid lightgrey;
+  outline: transparent;
+}
+.contactuspage_form > form > div > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+}
+.contactuspage_form > form > div > span >div{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactuspage_form > form > div > span>div > input {
+  width: 90%;
+  border: transparent;
+  outline: transparent;
+  height: 100%;
+  padding-left: 10px;
+}
+.contactuspage_form > form > div > span > p {
+  background-color: lightgray;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactuspage_form > form > div >textarea{
+    width: 95%;
+    height: 250px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    outline: transparent;
+}
+.contactuspage_form>form>span{
+    width: 95%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.contactuspage_form>form>span>button{
+    padding: 10px;
+    font-size: 20px;
+    border: transparent;
+    outline: transparent;
+    background-color: #E68639;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contactuspage_address{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contactuspage_address>img{
+    width: 100%;
+}
+.contactuspage_address>span{
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.contactuspage_address>span>p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.contactuspage_form_form_div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.contactuspage_form_form_div_div{
+  flex: 0.45;
+  /* border: 1px solid ; */
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contactuspage_form_form_div_div_span{
+  width: 100%;
+  display: flex;
+  border: 1px solid lightgrey;
+}
+.contactuspage_form_form_div_div_span_input{
+  width: 100%;
+  border:none;
+  outline: none;
+  height: 45px;
+  padding-left:15px ;
+}
+.contactuspage_form_form_div_div_span_input_mobile{
+  width: 80%;
+  border:none;
+  outline: none;
+  height: 45px;
+  padding-left:15px ;
+}
+.contactuspage_form_form_div_div_span_para{
+  background-color: lightgray;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+}
+.error_message{
+  margin-top: 5px;
+  color: tomato;
+  font-size: 12px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start ;
+  width: 95%;
+}
+.contactuspage_form_form_div_textarea{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start ;
+  justify-content: flex-start ;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+@media only screen and (max-width:600px){
+  .contactuspage_banner{
+    height: 10vh;
+  }
+  .contactuspage_form > p {
+    font-size: 16px;
+    text-align: justify;
+    word-break: break-word;
+  }
+  .contactuspage_form > h3 {
+font-size: 20px;
+  }
+  .contactuspage_form > form > div {
+    flex-direction: column;
+  }
+  .contactuspage_form > form > div >textarea{
+    height: 150px;
+  }
+  .contactuspage_form > form > div > span{
+    height: 45px;
+  }
+  .contactuspage_form > form > div > span > input{
+    height: 45px;
+  }
+  .contactuspage_form > form > div >textarea {
+    width: 100%;
+  }
+  .contactuspage_form > form > div > span > p {
+    height: 45px;
+  }
+  .contactuspage_form > form > div{
+    margin-bottom: 0px;
+  }
+  .contactuspage_address{
+    width: 90%;
+  }
+  .contactuspage_address>span {
+    text-align: justify;
+    word-break: break-word;
+  }
+  .contactuspage_form > form > div > span{
+    margin-bottom: 15px;
+  }
+  .contactuspage_form>form>span {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .contactuspage_form {
+    width: 90%;
+  }
+  .margin_bottom{
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width:601px) and (max-width:1074px){
+  .contactuspage_banner{
+    height: 35vh;
+  }
+  .contactuspage_form{
+    width: 90%;
+  }
+  .contactuspage_form > form > div >textarea{
+    height: 200px;
+  }
+  .contactuspage_address {
+    width: 90%;
+  }
+  .contactuspage_form {
+    width: 90%;
+  }
+}
+@media only screen and (min-width:1075px) and (max-width:1500px){
+  .contactuspage_banner{
+height: 37vh;
+  }
+  .contactuspage_form {
+    width: 90%;
+  }
+  .contactuspage_address {
+    width: 90%;
+  }
+}

@@ -1,0 +1,208 @@
+.adminhome {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  width: 100%;
+}
+.adminhome_left{
+   flex: 0.2;
+   width: 100%;
+}
+.adminhome_right{
+    flex: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.allbrand_table_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .allbrand_table_head > span {
+    margin-left: 0;
+  }
+  .addbutton {
+    width: 150px;
+    padding: 12px 10px;
+    border: transparent;
+    outline: transparent;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #E68639;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #E68639;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .modal_form {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .modal_form > span {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .modal_form_form {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+  }
+  .modal_form > span > input {
+    width: 100%;
+    height: 45px;
+    outline: transparent;
+    border: transparent;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+  .modal_form > span > select {
+    width: 100%;
+    height: 45px;
+    border: transparent;
+    outline: transparent;
+  }
+  .modal_form_para {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .modal_form > input[type="file"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .modal_form_buttom {
+    margin-top: 10px;
+    border: transparent;
+    outline: transparent;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .jodit-react-container {
+    width: 100%;
+  }
+  .modal_form_product_details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+  }
+  .modal_form_product_details_heading {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .modal_form_product_details_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .modal_form_product_details_details > span {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .modal_form_product_details_details > span > p {
+    margin-bottom: 5px;
+  }
+  .modal_form_product_details_details > span > input {
+    height: 30px;
+    border: 1px solid lightgrey;
+    margin-top: 4px;
+    outline: transparent;
+    border-radius: 5px;
+    width: 200px;
+    padding-left: 10px;
+  }
+  

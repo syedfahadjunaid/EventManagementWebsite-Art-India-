@@ -1,0 +1,47 @@
+.seatSelectionNewComponent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    width: 80%;
+  }
+
+  .seatSelectionNewComponent-upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* width: 80%; */
+  }
+
+  .seatSelectionNewComponent-upper-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .seatSelectionNewComponent-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    /* align-items: center; */
+  }
+
+  .seatSelectionNewComponent-panel-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+@media screen and (max-width: 650px) {
+  .seatSelectionNewComponent-panel {
+    width: 100%;
+  }
+  .seatSelectionNewComponent {
+    width: 100%;
+  }
+}

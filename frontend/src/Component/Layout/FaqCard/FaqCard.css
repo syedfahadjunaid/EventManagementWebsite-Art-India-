@@ -1,0 +1,12 @@
+.faqcard_details{
+    text-align: justify;
+    word-break: break-word;
+}
+@media only screen and (max-width:600px){
+    .Typography_title{
+        font-size: 14px !important;
+    }
+    .faqcard_details{
+        font-size: 12px !important;
+    }
+}

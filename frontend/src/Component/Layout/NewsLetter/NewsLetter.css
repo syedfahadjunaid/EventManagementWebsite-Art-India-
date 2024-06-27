@@ -1,0 +1,96 @@
+.newsletter {
+  width: 83%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(89.08deg, #e68639 27.5%, #ffc596 98.8%);
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.newsletter_left {
+  flex: 0.45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.newsletter_left > p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.newsletter_right {
+  flex: 0.45;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter_right > form {
+  width: 80%;
+  border: 1px solid white;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.newsletter_right > form > input {
+  width: 80%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding-left: 10px;
+}
+.newsletter_right > form > button {
+  width: 20%;
+  height: 40px;
+  border-radius: 50px;
+  outline: transparent;
+  border: transparent;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .newsletter {
+    width: 90%;
+  }
+  .newsletter_left {
+    display: none;
+  }
+  .newsletter_right > p {
+    display: none;
+  }
+  .newsletter_right {
+    flex: 1;
+  }
+  .newsletter_right > form {
+    width: 95%;
+  }
+  .newsletter_right > form > button {
+    font-size: 12px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .newsletter {
+    width: 95%;
+  }
+  .newsletter_right > form > input {
+    width: 65%;
+  }
+  .newsletter_right > form > button {
+    width: 35%;
+  }
+  .newsletter_left > p {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1400px) {
+  .newsletter {
+    width: 90%;
+  }
+}

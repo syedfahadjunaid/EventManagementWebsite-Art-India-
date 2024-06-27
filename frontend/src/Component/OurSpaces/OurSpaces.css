@@ -1,0 +1,26 @@
+.ourspaces{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 83%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ourspaces>h3{
+    margin-top: 20px;
+}
+.ourspaces_card{
+    margin-top: 50px;
+    width: 100%;
+}
+@media only screen and (max-width:600px){
+  .ourspaces{
+    width: 90%;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px){
+  .ourspaces{
+    width: 90%;
+  }
+}

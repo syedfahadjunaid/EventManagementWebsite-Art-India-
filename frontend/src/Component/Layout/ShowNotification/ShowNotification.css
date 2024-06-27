@@ -1,0 +1,66 @@
+.shownotification {
+  width: 83%;
+  background-color: #fff3ea;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.shownotification_left {
+  flex: 0.45;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.shownotification_left > p {
+  margin-top: 10px;
+}
+.shownotification_right {
+  flex: 0.45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shownotification_right > span {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgrey;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.shownotification_right > span > input {
+  height: 40px;
+  border: transparent;
+  outline: transparent;
+  width: 80%;
+}
+.shownotification_right > span > p {
+  font-size: 14px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .shownotification{
+    width: 90%;
+  }
+  .shownotification_left {
+    display: none;
+  }
+  .shownotification_right {
+    flex: 1;
+  }
+  .shownotification_right > span {
+    width: 90%;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .shownotification {
+    width: 90%;
+  }
+}
